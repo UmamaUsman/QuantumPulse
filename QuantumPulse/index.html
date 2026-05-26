@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Quantum Pulse | Computing & Future Tech</title>
+    <!-- Custom Favicon - Matches Quantum Horizons purple atom -->
+<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/fortawesome/font-awesome/master/svgs/solid/atom.svg">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern, clean typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (free icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation / Floating header -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-atom"></i>
+                <span>Quantum<span class="light">Pulse</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#core" class="nav-item">Core Concepts</a>
+                <a href="#applications" class="nav-item">Applications</a>
+                <a href="#future" class="nav-item">Future Tech</a>
+                <a href="#interactive" class="nav-item quantum-glow">Qubit Lab</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section: Bridge science & wonder -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-microchip"></i> The Next Computing Revolution
+            </div>
+            <h1>Where Quantum <span class="gradient-text">Physics</span> Meets Tomorrow's Tech</h1>
+            <p class="hero-sub">From qubits to quantum supremacy — exploring the strange, powerful world of superposition, entanglement, and the future of problem-solving.</p>
+            <div class="hero-cta">
+                <button class="btn-primary" id="exploreBtn">Explore Quantum Worlds <i class="fas fa-arrow-right"></i></button>
+                <button class="btn-outline" id="randomFactBtn"><i class="fas fa-dice-d6"></i> Quantum Curiosity</button>
+            </div>
+            <div class="random-fact-display" id="factDisplay"></div>
+        </div>
+        <div class="hero-visual">
+            <div class="quantum-sphere" id="quantumSphere"></div>
+        </div>
+    </section>
+
+    <!-- Core Concepts: Qubits, superposition, entanglement -->
+    <section id="core" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Foundations</span>
+                <h2>Beyond Classical <span class="highlight">Bits</span></h2>
+                <p>How quantum mechanics unlocks exponential power — explained without a PhD.</p>
+            </div>
+            <div class="cards-grid">
+                <div class="quantum-card">
+                    <div class="card-icon"><i class="fas fa-circle-notch"></i></div>
+                    <h3>Qubits vs. Bits</h3>
+                    <p>A classical bit is 0 or 1. A <strong>qubit</strong> can be 0, 1, or both at the same time — thanks to <strong>superposition</strong>. Two qubits explore 4 states simultaneously, growing exponentially.</p>
+                    <div class="card-meta">⚛️ Superposition engine</div>
+                </div>
+                <div class="quantum-card">
+                    <div class="card-icon"><i class="fas fa-link"></i></div>
+                    <h3>Quantum Entanglement</h3>
+                    <p>Einstein called it "spooky action at a distance." Entangled particles stay connected: measure one, instantly determine the other, no matter the distance. The backbone of quantum teleportation & cryptography.</p>
+                    <div class="card-meta">🔗 Non-locality</div>
+                </div>
+                <div class="quantum-card">
+                    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Quantum Tunneling</h3>
+                    <p>Particles pass through barriers that classical physics says are impossible. This enables flash memory, scanning tunneling microscopes, and even explains nuclear fusion in stars.</p>
+                    <div class="card-meta">⛰️ Through the impossible</div>
+                </div>
+                <div class="quantum-card">
+                    <div class="card-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Heisenberg's Uncertainty</h3>
+                    <p>You can't know both the exact position and momentum of a particle. This isn't a measurement flaw — it's a fundamental property of reality. It also enables unhackable quantum cryptography.</p>
+                    <div class="card-meta">🎲 Fundamental limits</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real-World Applications Section -->
+    <section id="applications" class="section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Revolutionizing Industries</span>
+                <h2>Quantum <span class="highlight">Applications</span> Today & Tomorrow</h2>
+                <p>From drug discovery to unbreakable encryption — how quantum tech changes everything.</p>
+            </div>
+            <div class="apps-showcase">
+                <div class="app-item">
+                    <i class="fas fa-dna"></i>
+                    <h4>Drug Discovery</h4>
+                    <p>Simulate molecular interactions at quantum level, slashing years of R&D for new medicines.</p>
+                </div>
+                <div class="app-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <h4>Financial Modeling</h4>
+                    <p>Optimize portfolios & risk analysis exponentially faster than classical supercomputers.</p>
+                </div>
+                <div class="app-item">
+                    <i class="fas fa-lock"></i>
+                    <h4>Quantum Cryptography</h4>
+                    <p>BB84 protocol using polarized photons — any eavesdropper is instantly detected.</p>
+                </div>
+                <div class="app-item">
+                    <i class="fas fa-brain"></i>
+                    <h4>AI & Machine Learning</h4>
+                    <p>Quantum neural networks & kernel methods — next-gen pattern recognition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Future / Philosophical & Pop Culture -->
+    <section id="future" class="section">
+        <div class="container">
+            <div class="future-grid">
+                <div class="future-text">
+                    <span class="section-tag">Mind-Bending Ideas</span>
+                    <h2>Schrödinger's Cat & <span class="gradient-text">Many-Worlds</span></h2>
+                    <p>The famous cat is both dead and alive until observed — a metaphor for quantum superposition. But the <strong>Many-Worlds Interpretation</strong> suggests every quantum event creates branching realities. Are we living in a multiverse?</p>
+                    <ul class="future-list">
+                        <li><i class="fas fa-cat"></i> Schrödinger's Cat: Superposition made famous.</li>
+                        <li><i class="fas fa-globe-americas"></i> Many-Worlds: Infinite parallel universes.</li>
+                        <li><i class="fas fa-quantum"></i> Quantum Biology: Birds use entanglement to navigate?</li>
+                    </ul>
+                </div>
+                <div class="future-quote">
+                    <div class="quote-card">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Those who are not shocked when they first come across quantum theory cannot possibly have understood it.</p>
+                        <span>— Niels Bohr</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Qubit Simulator (simple visualization) -->
+    <section id="interactive" class="section interactive-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Try It Yourself</span>
+                <h2><i class="fas fa-gamepad"></i> Qubit Playground</h2>
+                <p>Click the button — a qubit in superposition (Bloch sphere inspired). Observe the probability cloud.</p>
+            </div>
+            <div class="interactive-container">
+                <div class="qubit-visualizer" id="qubitViz">
+                    <div class="bloch-sphere">
+                        <div class="bloch-point" id="blochPoint"></div>
+                        <div class="axis x-axis"></div>
+                        <div class="axis y-axis"></div>
+                        <div class="axis z-axis"></div>
+                    </div>
+                    <div class="qubit-state" id="qubitStateText">|0⟩</div>
+                </div>
+                <div class="qubit-controls">
+                    <button id="applyHadamard" class="quantum-btn"><i class="fas fa-random"></i> Apply Superposition (H)</button>
+                    <button id="measureQubit" class="quantum-btn"><i class="fas fa-chart-simple"></i> Measure Qubit</button>
+                    <button id="resetQubit" class="quantum-btn"><i class="fas fa-undo-alt"></i> Reset to |0⟩</button>
+                </div>
+                <div class="qubit-explanation" id="measureResult">
+                    <span class="explain-text">The qubit exists in a blend of |0⟩ and |1⟩ until measurement.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <i class="fas fa-atom"></i> Quantum Horizons
+                <p>Bridging complex science and the future of technology.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <a href="#core">Core Concepts</a>
+                <a href="#applications">Real-World Tech</a>
+                <a href="#future">Philosophy</a>
+            </div>
+            <div class="footer-credit">
+                <i class="fas fa-quantum"></i> "The quantum world is not a strange land — it is our land."<br>
+                <span>© 2025 Quantum Horizons — for curious minds</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
