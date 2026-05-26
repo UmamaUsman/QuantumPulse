@@ -1,4 +1,4 @@
-# ⚛️ Quantum Horizons (or your new name here)
+# ⚛️ Quantum Pulse
 
 ![Quantum Computing Demo](https://img.shields.io/badge/quantum-computing-purple)
 ![HTML5](https://img.shields.io/badge/HTML5-orange)
