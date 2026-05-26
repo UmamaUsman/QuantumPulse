@@ -27,7 +27,3 @@ An interactive educational website that makes **quantum computing concepts** acc
 - CSS3 (Glass-morphism design, custom animations)
 - Vanilla JavaScript (No frameworks needed!)
 
-## 🚀 Running Locally
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
